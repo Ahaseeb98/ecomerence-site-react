@@ -1,0 +1,91 @@
+/* account hover */
+
+.account:hover{
+    color: #ff6023;
+}
+
+.br {
+    display: none
+}
+
+.float div {
+    display: inline-block;
+}
+.float {
+    margin-left: 5% ;
+    display: inline-block;
+    width: 65%;
+    text-align: right;
+}
+
+.cartBtn {
+    margin: 0px!important;
+    box-shadow: none!important;
+    
+    
+}
+
+
+.navLink {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 8px;
+    margin: 0 5px;
+    color: aliceblue;
+}
+
+.navLink:hover {
+    color: #ff6023
+}
+
+@media screen and (max-width: 1070px) {
+    .float {
+        min-width: 10%;
+    }
+  
+}
+  
+@media screen and (max-width: 891px) {
+    .float {
+      width: 100%;
+      margin: 0 auto
+    }
+  }
+
+  @media screen and (max-width: 570px) {
+    .float {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center
+    }
+
+    .account {
+        background: red;
+        width: 100%
+    }
+    .cartBtn {
+        background: red;
+        width: 100%
+    }
+    .search {
+        width: 100%!important;
+    }
+    .searchBar {
+        width: 91%!important;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .search {
+        width: 100%!important
+    }
+    .searchBar {
+        width: 85%!important
+    }
+  }
+
+  @media screen and (max-width: 410px) {
+    .searchBar {
+        width: 80%
+    }
+  }
